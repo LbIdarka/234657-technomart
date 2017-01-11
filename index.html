@@ -5,8 +5,306 @@
     <title>HTML Academy: Техномарт</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+    <header>
+      <section class="top-menu">
+        <div class="logo">
+          <img src="" alt="">
+        </div>
+        <section class="top-menu__search">
+          <form action="">
+            <label for="search">Поиск:</label>
+            <input type="text" name="search">
+          </form>
+        </section>
+        <section class="top-menu__cart">
+          <ul class="cart__list">
+            <li class="cart__item">
+              <a href="#" class="cart__link">Закладки: 0</a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__link">Корзина: 0</a>
+            </li>
+            <li class="cart__item">
+              <a href="#" class="cart__link">Оформить заказ</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="user-menu">
+        <div class="user-menu__slogan">
+          <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+        </div>
+        <section class="user-menu__contacts">
+          <p class="user-menu__contacts-tel">+7 (812) 555-05-55</p>
+          <p class="user-menu__contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        </section>
+        <section class="user-menu__login">
+          <div>
+            <a href="#">Войти</a>
+          </div>
+          <div>
+            <a href="#">Регистрация</a>
+          </div>
+        </section>
+      </section>
+      <nav class="menu-navigation">
+        <ul class="menu-navigation__list">
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Главная</a>
+            </li>
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Компания</a>
+          </li>
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Каталог</a>
+          </li>
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Новости</a>
+          </li>
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Спецпредложения</a>
+          </li>
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Доставка</a>
+          </li>
+          <li class="menu-navigation__item">
+            <a href="" class="menu-navigation__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="sub-menu">
+        <section class="category">
+          <ul class="category__list">
+            <li class="category__item">Материалы
+              <a href="#" class="category__item-link">на любой вкус</a>
+            </li>
+            <li class="category__item">Инструмент
+              <a href="#" class="category__item-link">на все случаи</a>
+            </li>
+            <li class="category__item">Техника
+              <a href="#" class="category__item-link">для стройки</a>
+            </li>
+          </ul>
+        </section>
+        <section class="slider">
+          <span>Перфораторы</span>
+          <p>Настроящие мужские игрушки</p>
+          <div class="controls">
+            <div class="controls__prev"></div>
+            <div class="controls__next"></div>
+          </div>
+          <a href="#" class="slider__link">Открыть каталог</a>
+        </section>
+        <section class="slider">
+          <span>Дрели</span>
+          <p>Соседям на радость!</p>
+          <div class="controls">
+            <div class="controls__prev"></div>
+            <div class="controls__next"></div>
+          </div>
+          <a href="#" class="slider__link">Открыть каталог</a>
+        </section>
+        <section class="sale">
+          <p class="sale__title">Скидки 50%</p>
+          <a href="#" class="sale__link">На 350 товаров</a>
+        </section>
+        <section class="shipping">
+          <p class="shipping__title">Скидки 50%</p>
+          <a href="#" class="shipping__link">Бесплатно</a>
+        </section>
+      </section>
+      <section class="popular-product">
+        <div class="popular-product__title">
+          <p>Популярные товары:</p>
+          <a href="#" class="popular-product__title-link">все популярные товары</a>
+        </div>
+        <section class="popular-product__name">
+          <ul class="popular-product__list">
+            <li class="popular-product__item">
+              <div class="popular-product__item-img">
+                <img src="" alt="">
+              </div>
+              <p class="popular-product__item-title">Перфоратор BOSCH BFG 9000</p>
+              <p class="popular-product__item-oldcost">32500 р.</p>
+              <a href="#" class="popular-product__item-price">25500 р.</a>
+            </li>
+            <li class="popular-product__item">
+              <div class="popular-product__item-img">
+                <img src="" alt="">
+              </div>
+              <p class="popular-product__item-title">Перфоратор BOSCH BFG 3000</p>
+              <p class="popular-product__item-oldcost">22500 р.</p>
+              <a href="" class="popular-product__item-price">15500 р.</a>
+            </li>
+            <li class="popular-product__item">
+              <div class="popular-product__item-img">
+                <img src="" alt="">
+              </div>
+              <p class="popular-product__item-title">Перфоратор BOSCH BFG 6000</p>
+              <p class="popular-product__item-oldcost">30500 р.</p>
+              <a href="" class="popular-product__item-price">25500 р.</a>
+            </li>
+            <li class="popular-product__item">
+              <div class="popular-product__item-img">
+                <img src="" alt="">
+              </div>
+              <p class="popular-product__item-title">Перфоратор BOSCH BFG 2000</p>
+              <a href="" class="popular-product__item-price">12500 р.</a>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="popular-mark">
+        <div class="popular-mark__title">
+          <p>Популярные производители:</p>
+          <a href="#" class="popular-mark__title-link">Все производители</a>
+        </div>
+        <section class="popular-mark__name">
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">bosch</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">Makita</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">DeWALT</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">Интерскол</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">Hitachi</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">LG</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">AEG</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+          <li class="popular-mark__item">
+            <span class="popular-mark__item-name  popular-mark__item-name--hidden">Metabo</span>
+            <a href="" class="popular-mark__item-link">
+              <img src="" alt="">
+            </a>
+          </li>
+        </section>
+      </section>
+      <section class="service">
+        <div class="service__description">
+          <p class="service__title">Сервисы</p>
+          <p class="service__subtitle">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        </div>
+        <section class="service__submenu">
+          <ul class="service__submenu-list">
+            <li class="service__submenu-item">Доставка</li>
+            <li class="service__submenu-item">Гарантия</li>
+            <li class="service__submenu-item">Кредит</li>
+          </ul>
+        </section>
+          <section class="service__features">
+            <p class="service__features-title">Доставка</p>
+            <p class="service__features-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш на этаж!
+            </p>
+          </section>
+          <section class="service__features">
+            <p class="service__features-title">Гарантия</p>
+            <p class="service__features-description">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
+            </p>
+          </section>
+          <section class="service__features">
+            <p class="service__features-title">Кредит</p>
+            <p class="service__features-description">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
+            </p>
+          </section>
+      </section>
+      <section class="info">
+        <section class="about-us">
+          <p class="about-us__title">Компания "Техномарт"</p>
+          <p class="about-us__description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.
+          </p>
+          <p class="about-us__delivery">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями:
+          </p>
+          <ul class="about-us__delivery-list">
+            <li class="about-us__delivery-item">Деловые линии</li>
+            <li class="about-us__delivery-item">Автотрейдинг</li>
+            <li class="about-us__delivery-item">ЖелДорЭкспедиция</li>
+          </ul>
+          <a href="" class="about-us__link">Подробнее о компании</a>
+        </section>
+        <section class="contacts">
+          <p class="contacts__title">Контакты</p>
+          <p class="contacts__description">Вы можете забрать товар сами, заехав в наш офис:
+          </p>
+          <div class="contacts__map"></div>
+          <a href="" class="contacts__popup">Заблудились? Напишите нам!</a>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__top">
+        <div class="logo"></div>
+        <nav class="footer__top-menu">
+          <ul class="footer__top-menu-list">
+            <li class="footer__top-menu-item">Компания</li>
+            <li class="footer__top-menu-item">Новости</li>
+            <li class="footer__top-menu-item">Каталог</li>
+            <li class="footer__top-menu-item">Доставка</li>
+            <li class="footer__top-menu-item">Контакты</li>
+          </ul>
+        </nav>
+        <p class="footer__top-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
+        </p>
+        <section class="footer__top-submenu">
+          <ul class="footer__top-submenu-list">
+            <li class="footer__top-submenu-item">Материалы</li>
+            <li class="footer__top-submenu-item">Техника</li>
+            <li class="footer__top-submenu-item">Инструмент</li>
+            <li class="footer__top-submenu-item">Спецпредложения</li>
+          </ul>
+        </section>
+      </div>
+      <div class="footer-bottom">
+        <section class="footer-bottom__copyright">
+          <p class="footer-bottom__copyright-text">© 2010–2016 Компания «Техномарт» Все права защищены
+          </p>
+        </section>
+        <section class="footer-bottom__social">
+          <a href="" class="footer-bottom__social-link">Вконтакте</a>
+          <a href="" class="footer-bottom__social-link">Фейсбук</a>
+          <a href="" class="footer-bottom__social-link">Инстаграмм</a>
+        </section>
+        <div class="footer-bottom__feedback">
+          <p class="footer-bottom__feedback-text">Обратная связь:</p>
+          <a href="" class="footer-bottom__feedback-mail">mail@htmlacademy.ru</a>
+        </div>
+        <div class="footer-bottom__developer">
+          <p class="footer-bottom__developer-text">Разработано —</p>
+          <a href="htmlacademy.ru" class="footer-bottom__developer-link">htmlacademy.ru</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
