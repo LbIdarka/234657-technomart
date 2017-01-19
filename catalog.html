@@ -8,24 +8,24 @@
     <header>
       <section class="top-menu">
         <div class="logo">
-          <img src="" alt="">
+          <span>Техномарт</span>
         </div>
         <section class="top-menu__search">
-          <form action="">
+          <form method="get">
             <label for="search">Поиск:</label>
-            <input type="text" name="search">
+            <input type="text" name="search" id="search">
           </form>
         </section>
         <section class="top-menu__cart">
-          <ul class="cart__list">
-            <li class="cart__item">
-              <a href="#" class="cart__link">Закладки: 0</a>
+          <ul class="top-menu__cart-list">
+            <li class="top-menu__cart-tem">
+              <a href="#" class="top-menu__cart-item-link">Закладки: 0</a>
             </li>
-            <li class="cart__item">
-              <a href="#" class="cart__link  cart__link--color">Корзина:10</a>
+            <li class="top-menu__cart-item">
+              <a href="#" class="top-menu__cart-item-link  top-menu__cart-item-link--color">Корзина:10</a>
             </li>
-            <li class="cart__item">
-              <a href="#" class="cart__link">Оформить заказ</a>
+            <li class="top-menu__cart-item">
+              <a href="#" class="top-menu__cart-item-link">Оформить заказ</a>
             </li>
           </ul>
         </section>
@@ -39,14 +39,20 @@
           <p class="user-menu__contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </section>
         <section class="user-menu__login">
-          <div class="user-menu__login-enter  user-menu__login-enter--hidden">
-            <a href="#">Войти</a>
-            <a href="#">Регистрация</a>
+          <div class="user-menu__login-enter">
+            <a href="#" title="Войти">Войти</a>
+            <a href="#" title="Регистрация">Регистрация</a>
           </div>
-          <div class="user-menu__login-info">
+          <div class="user-menu__login-info  user-menu__login-info--hidden">
             <a class="user-menu__login-name">Равшан Джамшутович</a>
-            <a href="#">Мои заказы</a>
-            <a href="#">Личный кабинет</a>
+            <ul class="user-menu__login-info-list">
+              <li class="user-menu__login-info-item">
+                <a href="#">Мои заказы</a>
+              </li>
+              <li class="user-menu__login-info-item">
+                <a href="#">Личный кабинет</a>
+              </li>
+            </ul>
           </div>
         </section>
       </section>
@@ -97,7 +103,7 @@
         <h1>Перфораторы</h1>
       </section>
       <aside class="filter">
-        <form action="">
+        <form method="get">
           <p class="filter__title">Фильтр:</p>
           <div class="filter__price">
             <p class="filter__price-title">Цена:</p>
@@ -171,7 +177,7 @@
           <ul class="product__list">
             <li class="product__item">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh3000.jpg" width="127" height="112" alt="BOSCH BFG 3000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 3000</p>
                 <p class="product__item-info-oldcost">22500 р.</p>
                 <p class="product__item-info-price">15500 р.</p>
@@ -183,7 +189,7 @@
             </li>
             <li class="product__item">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh6000.jpg" width="144" height="128" alt="BOSCH BFG 6000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 6000</p>
                 <p class="product__item-info-oldcost">30500 р.</p>
                 <p class="product__item-info-price">25500 р.</p>
@@ -195,7 +201,7 @@
             </li>
             <li class="product__item  product__item--new">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh2000.jpg" width="127" height="112" alt="BOSCH BFG 2000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 2000</p>
                 <p class="product__item-info-price">12500 р.</p>
               </div>
@@ -206,7 +212,7 @@
             </li>
             <li class="product__item">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh3000.jpg" width="127" height="112" alt="BOSCH BFG 3000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 3000</p>
                 <p class="product__item-info-oldcost">22500 р.</p>
                 <p class="product__item-info-price">15500 р.</p>
@@ -218,7 +224,7 @@
             </li>
             <li class="product__item  product__item--new">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh6000.jpg" width="144" height="128" alt="BOSCH BFG 6000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 6000</p>
                 <p class="product__item-info-oldcost">30500 р.</p>
                 <p class="product__item-info-price">25500 р.</p>
@@ -230,7 +236,7 @@
             </li>
             <li class="product__item">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh2000.jpg" width="127" height="112" alt="BOSCH BFG 2000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 2000</p>
                 <p class="product__item-info-price">12500 р.</p>
               </div>
@@ -239,9 +245,9 @@
                 <a href="#" class="product__item-buy-bookmarks">В закладки</a>
               </div>
             </li>
-            <li class="product__item    product__item--new">
+            <li class="product__item  product__item--new">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh3000.jpg" width="127" height="112" alt="BOSCH BFG 3000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 3000</p>
                 <p class="product__item-info-oldcost">22500 р.</p>
                 <p class="product__item-info-price">15500 р.</p>
@@ -253,7 +259,7 @@
             </li>
             <li class="product__item">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh6000.jpg" width="144" height="128" alt="BOSCH BFG 6000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 6000</p>
                 <p class="product__item-info-oldcost">30500 р.</p>
                 <p class="product__item-info-price">25500 р.</p>
@@ -265,7 +271,7 @@
             </li>
             <li class="product__item">
               <div class="product__item-info">
-                <img src="" alt="">
+                <img src="img/bosh2000.jpg" width="127" height="112" alt="BOSCH BFG 2000">
                 <p class="product__item-info-name">Перфоратор BOSCH BFG 2000</p>
                 <p class="product__item-info-price">12500 р.</p>
               </div>
@@ -300,25 +306,25 @@
       </section>
     </main>
     <footer>
-      <div class="footer__top">
+      <div class="footer-top">
         <div class="logo"></div>
-        <nav class="footer__top-menu">
-          <ul class="footer__top-menu-list">
-            <li class="footer__top-menu-item">Компания</li>
-            <li class="footer__top-menu-item">Новости</li>
-            <li class="footer__top-menu-item">Каталог</li>
-            <li class="footer__top-menu-item">Доставка</li>
-            <li class="footer__top-menu-item">Контакты</li>
+        <nav class="footer-top__menu">
+          <ul class="footer-top__menu-list">
+            <li class="footer-top__menu-item">Компания</li>
+            <li class="footer-top__menu-item">Новости</li>
+            <li class="footer-top__menu-item">Каталог</li>
+            <li class="footer-top__menu-item">Доставка</li>
+            <li class="footer-top__menu-item">Контакты</li>
           </ul>
         </nav>
-        <p class="footer__top-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
+        <p class="footer-top__adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
         </p>
-        <section class="footer__top-submenu">
-          <ul class="footer__top-submenu-list">
-            <li class="footer__top-submenu-item">Материалы</li>
-            <li class="footer__top-submenu-item">Техника</li>
-            <li class="footer__top-submenu-item">Инструмент</li>
-            <li class="footer__top-submenu-item">Спецпредложения</li>
+        <section class="footer-top__submenu">
+          <ul class="footer-top__submenu-list">
+            <li class="footer-top__submenu-item">Материалы</li>
+            <li class="footer-top__submenu-item">Техника</li>
+            <li class="footer-top__submenu-item">Инструмент</li>
+            <li class="footer-top__submenu-item">Спецпредложения</li>
           </ul>
         </section>
       </div>
