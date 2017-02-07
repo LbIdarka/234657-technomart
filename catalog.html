@@ -24,8 +24,8 @@
               <li class="top-menu__cart-item">
                 <a href="#" class="top-menu__cart-item-link">Закладки:<span>0</span></a>
               </li>
-              <li class="top-menu__cart-item">
-                <a href="#" class="top-menu__cart-item-link  top-menu__cart-item-link--color">Корзина:<span>10</span></a>
+              <li class="top-menu__cart-item  top-menu__cart-item--color">
+                <a href="#" class="top-menu__cart-item-link">Корзина:<span>10</span></a>
               </li>
               <li class="top-menu__cart-item">
                 <a href="#" class="top-menu__cart-item-link">Оформить заказ</a>
@@ -37,20 +37,24 @@
       <div class="wrapper">
         <section class="user-menu">
           <div class="user-menu__slogan">
-            <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+            <p class="user-menu__slogan-text">Интернет-магазин строительных материалов и инструментов для ремонта</p>
           </div>
           <section class="user-menu__contacts">
-            <p class="user-menu__contacts-tel">+7 (812) 555-05-55</p>
+            <p class="user-menu__contacts-tel"><span class="icon-phone"></span>+7 (812) 555-05-55</p>
             <p class="user-menu__contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
             </p>
           </section>
           <section class="user-menu__login">
-            <div class="user-menu__login-enter">
+<!--
+            <div class="user-menu__login-enter  user-menu__login-enter--hidden">
               <a href="#" title="Войти">Войти</a>
               <a href="#" title="Регистрация">Регистрация</a>
             </div>
+-->
             <div class="user-menu__login-info  user-menu__login-info--hidden">
-              <a class="user-menu__login-name">Равшан Джамшутович</a>
+              <a class="user-menu__login-name" href="#" title="Равшан Джамшутович">
+                <span class="icon-user"></span>Равшан Джамшутович<span class="icon-logout"></span>
+              </a>
               <ul class="user-menu__login-info-list">
                 <li class="user-menu__login-info-item">
                   <a href="#">Мои заказы</a>
