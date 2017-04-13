@@ -9,16 +9,15 @@
   <body>
     <header>
       <section class="top-menu">
-        <div class="wrapper  wrapper--nowrap">
+        <div class="wrapper  wrapper--nowrap  wrapper--bg-color">
           <div class="logo">
             <a class="logo__title">Техномарт</a>
           </div>
           <section class="top-menu__search">
             <form method="get" class="form-search">
-              <label for="search" class="form-search__name">
-                <span class="icon-search"></span>Поиск:
-              </label>
-              <input type="search" name="search" id="search" class="form-search__input">
+              <label for="search" class="form-search__name">Поиск:</label>
+              <input type="search" name="search" id="search" class="form-search__input" placeholder="Поиск">
+              <span class="icon-search"></span>
             </form>
           </section>
           <section class="top-menu__cart">
@@ -170,6 +169,10 @@
                   <p class="popular-product__item-oldcost">32500 р.</p>
                   <a href="#" class="popular-product__item-price">25500 р.</a>
                 </div>
+                <div class="product__item-buy  product__item-buy--hover">
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--cart">Купить</a>
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--bookmarks">В закладки</a>
+                </div>
               </li>
               <li class="popular-product__name-item">
                 <div class="popular-product__item-foto">
@@ -179,6 +182,10 @@
                   <p class="popular-product__item-title">Перфоратор BOSCH BFG 3000</p>
                   <p class="popular-product__item-oldcost">22500 р.</p>
                   <a href="" class="popular-product__item-price">15500 р.</a>
+                </div>
+                <div class="product__item-buy  product__item-buy--hover">
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--cart">Купить</a>
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--bookmarks">В закладки</a>
                 </div>
               </li>
               <li class="popular-product__name-item">
@@ -190,6 +197,10 @@
                   <p class="popular-product__item-oldcost">30500 р.</p>
                   <a href="#" class="popular-product__item-price">25500 р.</a>
                 </div>
+                <div class="product__item-buy  product__item-buy--hover">
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--cart">Купить</a>
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--bookmarks">В закладки</a>
+                </div>
               </li>
               <li class="popular-product__name-item  popular-product--item-new">
                 <div class="popular-product__item-foto">
@@ -198,6 +209,10 @@
                 <div class="popular-product__item-description">
                   <p class="popular-product__item-title">Перфоратор BOSCH BFG 2000</p>
                   <a href="" class="popular-product__item-price">12500 р.</a>
+                </div>
+                <div class="product__item-buy  product__item-buy--hover">
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--cart">Купить</a>
+                  <a href="#" class="product__item-buy-link  product__item-buy-link--bookmarks">В закладки</a>
                 </div>
               </li>
             </ul>
@@ -267,7 +282,7 @@
             <p class="service__description-subtitle">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
           </div>
           <section class="service__submenu">
-            <input type="radio" id="delivery" name="menu" checked>
+            <input type="radio" id="delivery" name="menu"  checked>
             <input type="radio" id="guarant" name="menu">
             <input type="radio" id="credit" name="menu">
             <ul class="service__submenu-list">
@@ -380,17 +395,22 @@
             </p>
           </section>
           <section class="footer-bottom__social">
-            <a href="vk.com" class="footer-bottom__social-link  footer-bottom__social-link--hidden"><span class="icon-vk"></span>Вконтакте</a>
-            <a href="facebook.com" class="footer-bottom__social-link"><span class="icon-facebook"></span>Фейсбук</a>
-            <a href="instagramm.com" class="footer-bottom__social-link"><span class="icon-twitter"></span>Инстаграм</a>
+            <a href="vk.com" class="footer-bottom__social-link  footer-bottom__social-link--hidden"><span class="icon-vk"></span>Вконтакте
+            </a>
+            <a href="facebook.com" class="footer-bottom__social-link"><span class="icon-facebook"></span>Фейсбук
+            </a>
+            <a href="instagramm.com" class="footer-bottom__social-link"><span class="icon-twitter"></span>Инстаграм
+            </a>
           </section>
           <div class="footer-bottom__feedback">
             <p class="footer-bottom__feedback-text">Обратная связь:</p>
-            <a href="mailto:mail@htmlacademy.ru" class="footer-bottom__feedback-mail">mail@htmlacademy.ru</a>
+            <a href="mailto:mail@htmlacademy.ru" class="footer-bottom__feedback-mail">mail@htmlacademy.ru
+            </a>
           </div>
           <div class="footer-bottom__developer">
             <p class="footer-bottom__developer-text">Разработано —</p>
-            <a href="htmlacademy.ru" class="footer-bottom__developer-link">htmlacademy.ru</a>
+            <a href="htmlacademy.ru" class="footer-bottom__developer-link">htmlacademy.ru
+            </a>
           </div>
         </div>
       </div>
